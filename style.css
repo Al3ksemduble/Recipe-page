@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+main{
+    align-items: center;
+    width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+ img {
+    width: 560px;
+    border-radius: 15px;
+}
+.preparando {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: purple;
+    padding: 15px;
+}
+.preparando{
+    padding: 30px;
+   margin: 20px;
+}
+li {
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.ingredientes {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.ingredientes h2 {
+    color: hsl(30, 60%, 70%);
+}
+.preparo {
+    padding: 20px;
+}
+.preparo h2{
+    color: hsl(30, 60%, 60%);
+}
+.nutri {
+    padding: 30px;
+}
+table {
+    width: 400px;
+    margin: 15px;
+    padding: 20px;
+    text-align: left;
+}
+td {
+    padding: 5px;
+    border-bottom: 1px black solid;
+}
+tr .inf {
+    color:  hsl(30, 60%, 60%);
+}
